@@ -1,0 +1,32 @@
+2018-5-29日修改:
+
+1、删除具体商品表:（shop_product）的三条列：要删除的列为:pro_size,pro_color,pro_inv
+
+
+2、创建一张表：语句如下:
+CREATE TABLE shop_prospe(--商品规格表
+       pros_id NUMBER NOT NULL,
+       pro_id NUMBER NOT NULL,
+       pro_size varchar2(5),
+       pro_color varchar2(10),
+       pro_inv NUmber(5),
+       CONSTRAINT pk_shop_prospe PRIMARY KEY(pros_id),
+       CONSTRAINT fk_shop_prospe1 FOREIGN KEY(pro_id) REFERENCES shop_product(pro_id)
+)
+
+3、创表要创序列，按照项目需求文档的要求来
+
+4、订单项表（shop_orderitem）增加一条列:要增加的列为:
+
+字段名		数据类型	是否为空	主键	外键	说明
+Pros_id		number		Not null		是	规格表主键，对应某个规格
+
+
+
+
+2018-5-30日修改:
+1、将shop_order(即订单表)表的手机号码字段(mobile)的类型调整为varchar2(11)，原数据类型为number(11)，
+还有订单号改成varchar2
+
+2018-6-2日修改：
+1、【重要！！！】将表中的所有的未指定具体数量的NUMBER类型改为有定长，5、10都行

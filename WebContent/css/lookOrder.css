@@ -1,0 +1,132 @@
+@charset "UTF-8";
+#div1{
+	color:#7f7f7f;
+	width: 1000px;
+	margin: 0 auto;
+}
+#orderType{
+	
+}
+
+#orderType div{
+	width:90px;
+	text-align:center;
+	font-size:19px;
+	float: left;
+	padding: 5px;
+	margin: 0px;
+	border-bottom: 2px solid #cccccc;
+}
+#orderType div a{color:black;font-weight: bold;}
+#orderType div a:hover{color:#b81b22;}
+#orderItemList{
+	border:1px solid #cccccc;
+}
+#order{
+	width:100%;
+	margin-top: 20px;
+	border: 1px solid #dfdfdf;
+}
+.order{
+	width:100%;
+	margin-top: 20px;
+	border: 2px solid #f1f1f1;
+}
+.order:hover{
+	border-color: #cccccc;
+}
+.orderTitle{
+	background-color:#f1f1f1;
+}
+.orderTitle td{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.orderItem td{
+	border-top:1px solid #f1f1f1;
+	height: 90px;
+}
+.orderItem img{
+	margin-left:5px;
+	height: 80px;
+}
+#orderTitle{
+	border:0.5px solid #dfdfdf;
+}
+#orderTitle td{
+	text-align:center;
+	font-size:12px;
+	color:black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:#f1f1f1; 
+}
+
+.btn-immPay{
+	border-radius:3px;
+	padding:5px;
+	margin: 0 auto;
+	background-color: #409bff;
+	color: white;
+	border: 0px;
+	width: 80px;
+	font-size: 14px;
+	font-weight: bold;		
+}
+.btn-1{
+	border-radius:3px;
+	padding:5px;
+	margin: 0 auto;
+	background-color: #65b4ed;
+	color: white;
+	border: 0px;
+	width: 90px;
+	font-size: 14px;
+	font-weight: bold;		
+}
+.btn-2{
+	border-radius:3px;
+	padding:5px;
+	margin: 0 auto;
+	background-color: #e15a2d;
+	color: white;
+	border: 0px;
+	width: 90px;
+	font-size: 14px;
+	font-weight: bold;		
+}
+.btn-3{
+	
+	border-radius:3px;
+	padding:5px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	color: black;
+	border: 0px;
+	width: 60px;
+	font-size: 14px;
+	font-weight: bold;	
+	
+}
+.btn-3:hover{
+	border-color: red;
+}
+.btn-4{
+	border-radius:3px;
+	padding:5px;
+	margin: 0 auto;
+	background-color: #8681a3;
+	color: white;
+	border: 0px;
+	width: 90px;
+	font-size: 14px;
+	font-weight: bold;		
+}
+
+
+
+
+
+
+
+

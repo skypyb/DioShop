@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+#div1{
+	color:#7f7f7f;
+	width: 1000px;
+	margin: 0 auto;
+}
+#div1_1{
+	border: 1px solid #e1e1e1;
+}
+#div1_1 div{
+	/* padding-bottom: 30px; */
+}
+.div1_1_1{
+	width: 95%;
+	margin:0 auto;
+	border-bottom: 1px solid #e1e1e1;
+}
+#tempOrder{
+	margin-bottom: 15px;
+}
+.div1_1_1 table tr{
+	height: 50px;
+}
+.div1_1_1 input{
+	height: 25px;
+}
+.div1_1_1 textarea{
+	margin-bottom: 30px;
+	resize: none;
+}
+
+.biaoti{
+	font-size:15px;
+	color: black;
+	font-weight: bold;
+	margin: 15px;
+}
+
+#tempOrder{
+	font-size:10px;
+	color:#464646;
+	background-color: #f3fbfe;
+}
+
+.container{
+	width: 100%;
+	padding-bottom: 0px;
+}
+.container img{
+	width: 60px;
+	height: 60px;
+	
+}
+.row{
+	height: 80px;
+	padding-bottom: 0px;
+	border-bottom: 2px solid white; 
+}
+.row div{
+	padding:0PX;
+	margin: 10px;
+}
+.row div span{
+	color: #b81b22;
+}
+#div1_2{
+	width:250px;
+	float: right;
+	margin-right: 15px;
+}
+#div1_2 table{	
+	font-size:12px;
+	width: 100%;
+}
+#div1_2 table tr td{
+	color:#4b4b4b;
+	padding-top:10px;
+	width:50%;
+	text-align: right;
+}
+#div1_2 table tr td button{
+	width: 100%;
+	font-weight:bold;
+	font-size:18px;
+	background-color: #b81b22;
+	color: white;
+	border: 0px;
+}
+#div1_2 table tr td button:hover{
+	background-color: #e02731;
+}
