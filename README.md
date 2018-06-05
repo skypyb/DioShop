@@ -11,7 +11,7 @@
 
 
 #### 编写环境:
-eclipse + tomcat9 + jdk1.8 + orcle11g
+Spring Tool Suite(就是高级版eclipse) + tomcat9 + jdk1.8 + Oracle11g
 
 #### 系统已实现功能:
 * 用户的登陆注册以及退出
